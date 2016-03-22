@@ -100,9 +100,9 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Advancing Open Science through NiData}
+\title{LORIS: DICOM Anonymizer}
 \vskip2ex
-\projectURL{Project URL: \url{http://github.com/LORIS}}
+\projectURL{Project URL: \url{http://github.com/DICOM\_anonymizer}}
 
 \author[
 addressref={aff1},
@@ -112,7 +112,7 @@ email={samir@acelab.mcgill.edu.ca}
 \author[
 addressref={aff2},
 %
-email={cmadjar@someplace.edu}
+email={cecile.madjar@gmail.com}
 ]{\inits{CM} \fnm{C.} \snm{Madjar}}
 \author[
 addressref={aff3},
@@ -205,8 +205,8 @@ Pscychology},
 
 %\vskip1ex
 
-%\projectURL{\url{http://github.com/LORIS}}
-%\projectURL{http://github.com/LORIS}
+%\projectURL{\url{http://github.com/DICOM\_anonymizer}}
+%\projectURL{http://github.com/DICOM\_anonymizer}
 
 % MSC classifications codes, if any
 %\begin{keyword}[class=AMS]
@@ -221,26 +221,27 @@ Pscychology},
 
 \end{frontmatter}
 
-%{\sffamily\bfseries\fontsize{10}{12}\selectfont Project URL: \url{http://github.com/LORIS}}
+%{\sffamily\bfseries\fontsize{10}{12}\selectfont Project URL: \url{http://github.com/DICOM\_anonymizer}}
 
 %%% Import the body from pandoc formatted text
 \section{Introduction}\label{introduction}
 
-To create a simple application, with the least dependencies, for
-anonymization of DICOM files directly on workstation.
+The purpose of this Brainhack project was to create a simple
+application, with the least dependencies, for anonymization of DICOM
+files directly on a workstation.
 
 Anonymization of DICOM datasets is a requirement before an imaging study
 can be uploaded in a web-based database system, such as
-LORIS\cite{Das2011}. Currently, a simple and efficient interface for
+LORIS\cite{Das2011}. Currently, a simple and efficient interface for the
 anonymization of such imaging datasets, which works on all operating
 systems and is very light in terms of dependencies, is not available.
 
 \section{Approach}\label{approach}
 
-The DICOM anonymizer is a simple graphical tool that uses
-\href{https://github.com/darcymason/pydicom}{PyDICOM} package to
+Here, we created a DICOM anonymizer that is a simple graphical tool that
+uses \href{https://github.com/darcymason/pydicom}{PyDICOM} package to
 anonymize DICOM datasets easily on any operating system, with no
-dependencies except for the default Python and NumPy packages. Dicom
+dependencies except for the default Python and NumPy packages. DICOM
 anonymizer is available for all UNIX systems (including Mac OS) and can
 be easily installed on Windows computers as well (see
 \href{http://pydicom.readthedocs.org/en/latest/getting_started.html}{PyDICOM
@@ -258,8 +259,9 @@ illustrates how to use the program to anonymize a DICOM study.
 \section{Results}\label{results}
 
 This graphical tool, designed to be easy-to-use, platform independent
-and having minimum dependencies, produces two zip files. One including
-the original DICOM files and one with the anonymized DICOM outputs.
+and have minimum dependencies, produces two zip files. One zip file
+includes the original DICOM files and the other contains the anonymized
+DICOM outputs.
 
 \section{Conclusions}\label{conclusions}
 
@@ -278,7 +280,7 @@ identity.
 \begin{backmatter}
 
 \section*{Availability of Supporting Data}
-More information about this project can be found at: \url{http://github.com/LORIS}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository REFXXX.
+More information about this project can be found at: \url{http://github.com/DICOM\_anonymizer}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository REFXXX.
 
 \section*{Competing interests}
 None
