@@ -51,7 +51,7 @@ affiliations:
   state: 
   country: Germany
 
-url: http://github.com/DICOM_anonymizer
+url: http://github.com/aces/DICOM_anonymizer
 
 coi: None
 
