@@ -48,7 +48,6 @@ affiliations:
   street: Otto-von-Guericke Strasse 3B
   postcode: 87777
   city: Magdeburg
-  state: 
   country: Germany
 
 url: http://github.com/aces/DICOM_anonymizer
@@ -61,7 +60,7 @@ contrib: SD, CM, AS, and ZM wrote the software and the report.
   
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100220}{doi:10.5524/100220}
 ...
 
 #Introduction
